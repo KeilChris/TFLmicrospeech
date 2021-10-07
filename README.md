@@ -1,8 +1,7 @@
-Micro Speech Example
-====================
+Micro Speech Example for NXP IMXRT1050-EVKB
+===========================================
 
-This example shows how to run a voice recognition model that can recognize 2 keywords, "yes" and "no",
-from boards built-in microphone. Recognized keywords are written to the terminal.
+This example runs a voice recognition model for two keywords ("yes" and "no") on the IMXRT1050-EVKB. It uses the EVK's built-in microphone (P1). The outcome of the speech recognition is shown in the serial monitor of [Keil Studio Cloud](https://www.studio.keil.arm.com).
 
 RTOS: Keil RTX5 Real-Time Operating System
 ------------------------------------------
