@@ -34,6 +34,7 @@
 #include "fsl_sai_edma.h"
 #include "main.h"
 
+
 // Callbacks for LPUART1 Driver
 uint32_t LPUART1_GetFreq   (void) { return BOARD_BOOTCLOCKRUN_UART_CLK_ROOT; }
 void     LPUART1_InitPins  (void) { /* Done in BOARD_InitDEBUG_UART function */ }
